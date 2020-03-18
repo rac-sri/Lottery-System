@@ -11,7 +11,7 @@ const babelLoader = {
       loader: "babel-loader",
       options: {
         babelrcRoots: [".", "../", "../.."],
-        presets: ["@babel/preset-reset"],
+        // presets: ["@babel/preset-reset"],
         plugins: [
           "@babel/plugin-proposal-class-properties",
           "@babel/plugin-proposal-export-default-from",

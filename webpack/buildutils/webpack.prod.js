@@ -1,4 +1,4 @@
-const plugin = require("../plugins/plugin");
+const plugin = require("../plugins/plugins");
 
 module.exports = {
   devtool: "source-map",

@@ -1,8 +1,8 @@
-const loaders = require("../loaders");
-const plugins = require("../plugins");
+const loaders = require("../loaders/index");
+const plugins = require("../plugins/plugins");
 
 module.exports = {
-  entry: ["/src/index.js"],
+  entry: ["./src/index.js"],
   module: {
     rules: [
       loaders.SVGLoader,
