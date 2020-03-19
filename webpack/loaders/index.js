@@ -4,22 +4,14 @@ const SVGLoader = {
 };
 
 const babelLoader = {
-  test: /\.js/,
-  exclude: /node_modules/,
-  use: [
-    {
-      loader: "babel-loader",
-      options: {
-        babelrcRoots: [".", "../", "../.."],
-        // presets: ["@babel/preset-reset"],
-        plugins: [
-          "@babel/plugin-proposal-class-properties",
-          "@babel/plugin-proposal-export-default-from",
-          "syntax-dynamic-import"
-        ]
-      }
+  test: /\.m?js$/,
+  exclude: /(node_modules|bower_components)/,
+  use: {
+    loader: "babel-loader",
+    options: {
+      presets: ["@babel/preset-env"]
     }
-  ]
+  }
 };
 
 const CSSLoader = {
