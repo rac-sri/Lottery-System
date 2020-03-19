@@ -14,14 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "@reach/router": "*",
+    "@truffle/hdwallet-provider": "^1.0.33",
     "ganache-cli": "^6.9.1",
     "husky": "*",
     "mocha": "^7.1.0",
     "react": "*",
     "react-dom": "*",
     "solc": "^0.4.17",
-    "truffle-hdwallet-provider": "^1.0.17",
-    "web3": "^1.0.0-beta.26"
+    "web3": "^1.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",

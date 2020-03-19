@@ -5,7 +5,6 @@ import ReactDOM from "react-dom";
 
 class App extends Component {
   render() {
-    console.log(web3.version);
     return <h1>App</h1>;
   }
 }
