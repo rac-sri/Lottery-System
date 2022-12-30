@@ -17,7 +17,7 @@
     "@truffle/hdwallet-provider": "^1.0.33",
     "ganache-cli": "^6.9.1",
     "husky": "*",
-    "mocha": "^7.1.0",
+    "mocha": "^10.2.0",
     "react": "*",
     "react-dom": "*",
     "solc": "^0.4.17",
